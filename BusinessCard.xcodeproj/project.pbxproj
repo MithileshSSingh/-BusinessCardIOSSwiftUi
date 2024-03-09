@@ -14,6 +14,8 @@
 		297B58CC2B9CD2890022461D /* BusinessCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297B58CB2B9CD2890022461D /* BusinessCardTests.swift */; };
 		297B58D62B9CD2890022461D /* BusinessCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297B58D52B9CD2890022461D /* BusinessCardUITests.swift */; };
 		297B58D82B9CD2890022461D /* BusinessCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297B58D72B9CD2890022461D /* BusinessCardUITestsLaunchTests.swift */; };
+		297B58E62B9CD6C00022461D /* ProtestRevolution-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 297B58E52B9CD6C00022461D /* ProtestRevolution-Regular.ttf */; };
+		297B58EB2B9CE5740022461D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297B58EA2B9CE5740022461D /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		297B58D12B9CD2890022461D /* BusinessCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		297B58D52B9CD2890022461D /* BusinessCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardUITests.swift; sourceTree = "<group>"; };
 		297B58D72B9CD2890022461D /* BusinessCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		297B58E52B9CD6C00022461D /* ProtestRevolution-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ProtestRevolution-Regular.ttf"; path = "../../../../Downloads/Protest_Revolution/ProtestRevolution-Regular.ttf"; sourceTree = "<group>"; };
+		297B58E92B9CD8980022461D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		297B58EA2B9CE5740022461D /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +99,13 @@
 		297B58B92B9CD2870022461D /* BusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				297B58E92B9CD8980022461D /* Info.plist */,
+				297B58E42B9CD6540022461D /* Fonts */,
 				297B58BA2B9CD2870022461D /* BusinessCardApp.swift */,
 				297B58BC2B9CD2870022461D /* ContentView.swift */,
 				297B58BE2B9CD2890022461D /* Assets.xcassets */,
 				297B58C02B9CD2890022461D /* Preview Content */,
+				297B58EA2B9CE5740022461D /* InfoView.swift */,
 			);
 			path = BusinessCard;
 			sourceTree = "<group>";
@@ -125,6 +133,14 @@
 				297B58D72B9CD2890022461D /* BusinessCardUITestsLaunchTests.swift */,
 			);
 			path = BusinessCardUITests;
+			sourceTree = "<group>";
+		};
+		297B58E42B9CD6540022461D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				297B58E52B9CD6C00022461D /* ProtestRevolution-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				297B58E62B9CD6C00022461D /* ProtestRevolution-Regular.ttf in Resources */,
 				297B58C22B9CD2890022461D /* Preview Assets.xcassets in Resources */,
 				297B58BF2B9CD2890022461D /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				297B58BD2B9CD2870022461D /* ContentView.swift in Sources */,
+				297B58EB2B9CE5740022461D /* InfoView.swift in Sources */,
 				297B58BB2B9CD2870022461D /* BusinessCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +443,7 @@
 				DEVELOPMENT_TEAM = RA8JN3K45Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusinessCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +473,7 @@
 				DEVELOPMENT_TEAM = RA8JN3K45Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusinessCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
